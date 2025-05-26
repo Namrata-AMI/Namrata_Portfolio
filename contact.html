@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Namrata Teshwer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+
+      <nav>
+
+    <div class="logo">Namrata Teshwer</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+
+  <div class="contact-container">
+
+    <header>
+      <h1>Get in Touch</h1>
+      <p>Feel free to reach out to me for collaborations, questions, or just to say hello!</p>
+    </header>
+
+    <form class="contact-form" action="https://formspree.io/f/xqaqvdgn" method="POST">
+      <div class="form-group">
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+       <input type="hidden" name="_redirect" value="index.html" />
+
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+
+  </div>
+  
+</body>
+</html>
